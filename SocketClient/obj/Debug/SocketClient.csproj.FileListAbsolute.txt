@@ -27,3 +27,13 @@ E:\AssessmentThree\AssesmentThreePartB\SocketClient\obj\Debug\SocketClient.cspro
 E:\AssessmentThree\AssesmentThreePartB\SocketClient\obj\Debug\SocketClient.SocketClient.resources
 E:\AssessmentThree\AssesmentThreePartB\SocketClient\obj\Debug\SocketClient.Properties.Resources.resources
 E:\AssessmentThree\AssesmentThreePartB\SocketClient\obj\Debug\SocketClient.csproj.GenerateResource.Cache
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\bin\Debug\SocketClient.exe.config
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\bin\Debug\SocketClient.exe
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\bin\Debug\SocketClient.pdb
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\obj\Debug\SocketClient.SocketClient.resources
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\obj\Debug\SocketClient.Properties.Resources.resources
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\obj\Debug\SocketClient.csproj.GenerateResource.Cache
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\obj\Debug\SocketClient.csproj.CoreCompileInputs.cache
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\obj\Debug\SocketClient.exe
+G:\AssessmentThree\AssessmentThreePartB\SocketClient\obj\Debug\SocketClient.pdb

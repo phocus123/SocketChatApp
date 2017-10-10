@@ -2,7 +2,7 @@
 \label{class_socket_server_1_1_socket_server}\index{Socket\+Server.\+Socket\+Server@{Socket\+Server.\+Socket\+Server}}
 
 
-Class for server operations  
+Class for server operations.  
 
 
 Inheritance diagram for Socket\+Server.\+Socket\+Server\+:\begin{figure}[H]
@@ -42,15 +42,15 @@ void \hyperlink{class_socket_server_1_1_socket_server_a19cb5f0314ec00e0837a893f0
 Socket \hyperlink{class_socket_server_1_1_socket_server_a3f7c25cca8eb9e7e98dc5172368e8f62}{m\+Server\+Socket} = new Socket(Address\+Family.\+Inter\+Network, Socket\+Type.\+Stream, Protocol\+Type.\+Tcp)
 \item 
 \hyperlink{class_socket_server_1_1_client}{Client} \hyperlink{class_socket_server_1_1_socket_server_a2c56e560fbab349d4ed56524f1f52f9c}{client}
-\begin{DoxyCompactList}\small\item\em declaring an empty instance of \hyperlink{class_socket_server_1_1_client}{Client} \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Declaring an empty instance of \hyperlink{class_socket_server_1_1_client}{Client}. \end{DoxyCompactList}\item 
 byte \mbox{[}$\,$\mbox{]} \hyperlink{class_socket_server_1_1_socket_server_a989b1e8fe5855a949087d7406db74988}{m\+Received\+Data} = new byte\mbox{[}1024\mbox{]}
-\begin{DoxyCompactList}\small\item\em byte array to store data received \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Byte array to store data received. \end{DoxyCompactList}\item 
 byte \mbox{[}$\,$\mbox{]} \hyperlink{class_socket_server_1_1_socket_server_abd27451304549844ef2d93051764fc1a}{m\+Send\+Data} = new byte\mbox{[}1024\mbox{]}
-\begin{DoxyCompactList}\small\item\em byte array to store data send \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Byte array to store data send. \end{DoxyCompactList}\item 
 List$<$ \hyperlink{class_socket_server_1_1_client}{Client} $>$ \hyperlink{class_socket_server_1_1_socket_server_ac9461bfbf488d01d0563f1ceb538f4c7}{m\+Clients} = new List$<$\hyperlink{class_socket_server_1_1_client}{Client}$>$()
-\begin{DoxyCompactList}\small\item\em list to store clients \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em List to store clients. \end{DoxyCompactList}\item 
 List$<$ Socket $>$ \hyperlink{class_socket_server_1_1_socket_server_a7333cc07bf0a885bb0f62f7ecc665742}{m\+Client\+Sockets} = new List$<$Socket$>$()
-\begin{DoxyCompactList}\small\item\em list to store client sockets \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em List to store client sockets. \end{DoxyCompactList}\item 
 System.\+Component\+Model.\+I\+Container \hyperlink{class_socket_server_1_1_socket_server_a323fc298b887e4f0f1d764662203703b}{components} = null
 \begin{DoxyCompactList}\small\item\em Required designer variable. \end{DoxyCompactList}\item 
 System.\+Windows.\+Forms.\+Text\+Box \hyperlink{class_socket_server_1_1_socket_server_aea45323bf62d2f24f8992a0380fd1044}{received\+Txt}
@@ -58,7 +58,7 @@ System.\+Windows.\+Forms.\+Text\+Box \hyperlink{class_socket_server_1_1_socket_s
 
 
 \subsection{Detailed Description}
-Class for server operations 
+Class for server operations. 
 
 
 
@@ -78,7 +78,7 @@ Class for server operations
 \subsubsection{\texorpdfstring{Accept\+Callback()}{AcceptCallback()}}
 {\footnotesize\ttfamily void Socket\+Server.\+Socket\+Server.\+Accept\+Callback (\begin{DoxyParamCaption}\item[{I\+Async\+Result}]{ar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
 
-when the server receives a connect to callback from a client it accepts it and adds that socket to the list of sockets \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a577f703fecf496140d420e0049159905}\label{class_socket_server_1_1_socket_server_a577f703fecf496140d420e0049159905}} 
+When the server receives a connect to callback from a client it accepts it and adds that socket to the list of sockets. \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a577f703fecf496140d420e0049159905}\label{class_socket_server_1_1_socket_server_a577f703fecf496140d420e0049159905}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!Dispose@{Dispose}}
 \index{Dispose@{Dispose}!Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}}
 \subsubsection{\texorpdfstring{Dispose()}{Dispose()}}
@@ -109,27 +109,27 @@ Required method for Designer support -\/ do not modify the contents of this meth
 \subsubsection{\texorpdfstring{Recieve\+Callback()}{RecieveCallback()}}
 {\footnotesize\ttfamily void Socket\+Server.\+Socket\+Server.\+Recieve\+Callback (\begin{DoxyParamCaption}\item[{I\+Async\+Result}]{ar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
 
-method for handling all text sent from a client \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a03c9fa5afc778edc51344fe0b05730c8}\label{class_socket_server_1_1_socket_server_a03c9fa5afc778edc51344fe0b05730c8}} 
+Method for handling all text sent from a client. \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a03c9fa5afc778edc51344fe0b05730c8}\label{class_socket_server_1_1_socket_server_a03c9fa5afc778edc51344fe0b05730c8}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!Recieve\+Name\+Callback@{Recieve\+Name\+Callback}}
 \index{Recieve\+Name\+Callback@{Recieve\+Name\+Callback}!Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}}
 \subsubsection{\texorpdfstring{Recieve\+Name\+Callback()}{RecieveNameCallback()}}
 {\footnotesize\ttfamily void Socket\+Server.\+Socket\+Server.\+Recieve\+Name\+Callback (\begin{DoxyParamCaption}\item[{I\+Async\+Result}]{ar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
 
-this method handles receiving name data from the client and printing that name, only called once upon a client connecting \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a7f3eb3d21566ae27786debe88c434cab}\label{class_socket_server_1_1_socket_server_a7f3eb3d21566ae27786debe88c434cab}} 
+This method handles receiving name data from the client and printing that name, only called once upon a client connecting. \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a7f3eb3d21566ae27786debe88c434cab}\label{class_socket_server_1_1_socket_server_a7f3eb3d21566ae27786debe88c434cab}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!Setup\+Server@{Setup\+Server}}
 \index{Setup\+Server@{Setup\+Server}!Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}}
 \subsubsection{\texorpdfstring{Setup\+Server()}{SetupServer()}}
 {\footnotesize\ttfamily void Socket\+Server.\+Socket\+Server.\+Setup\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
 
-function to set up server which will allow the connection of 2 clients on the port 955 and will take any local ip address \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a927514acb2fcf8804b360ad07b677a53}\label{class_socket_server_1_1_socket_server_a927514acb2fcf8804b360ad07b677a53}} 
+Function to set up server which will allow the connection of 2 clients on the port 955 and will take any local ip address. \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a927514acb2fcf8804b360ad07b677a53}\label{class_socket_server_1_1_socket_server_a927514acb2fcf8804b360ad07b677a53}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!Update\+Index@{Update\+Index}}
 \index{Update\+Index@{Update\+Index}!Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}}
 \subsubsection{\texorpdfstring{Update\+Index()}{UpdateIndex()}}
 {\footnotesize\ttfamily int Socket\+Server.\+Socket\+Server.\+Update\+Index (\begin{DoxyParamCaption}\item[{Socket}]{socket }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
 
-method to find the index of a current socket 
+Method to find the index of a current socket. 
 \begin{DoxyParams}{Parameters}
-{\em socket} & the current socket \\
+{\em socket} & The current socket. \\
 \hline
 \end{DoxyParams}
 
@@ -143,7 +143,7 @@ method to find the index of a current socket
 
 
 
-declaring an empty instance of \hyperlink{class_socket_server_1_1_client}{Client} 
+Declaring an empty instance of \hyperlink{class_socket_server_1_1_client}{Client}. 
 
 \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a323fc298b887e4f0f1d764662203703b}\label{class_socket_server_1_1_socket_server_a323fc298b887e4f0f1d764662203703b}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!components@{components}}
@@ -163,7 +163,7 @@ Required designer variable.
 
 
 
-list to store clients 
+List to store clients. 
 
 \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a7333cc07bf0a885bb0f62f7ecc665742}\label{class_socket_server_1_1_socket_server_a7333cc07bf0a885bb0f62f7ecc665742}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!m\+Client\+Sockets@{m\+Client\+Sockets}}
@@ -173,7 +173,7 @@ list to store clients
 
 
 
-list to store client sockets 
+List to store client sockets. 
 
 \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a989b1e8fe5855a949087d7406db74988}\label{class_socket_server_1_1_socket_server_a989b1e8fe5855a949087d7406db74988}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!m\+Received\+Data@{m\+Received\+Data}}
@@ -183,7 +183,7 @@ list to store client sockets
 
 
 
-byte array to store data received 
+Byte array to store data received. 
 
 \mbox{\Hypertarget{class_socket_server_1_1_socket_server_abd27451304549844ef2d93051764fc1a}\label{class_socket_server_1_1_socket_server_abd27451304549844ef2d93051764fc1a}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!m\+Send\+Data@{m\+Send\+Data}}
@@ -193,7 +193,7 @@ byte array to store data received
 
 
 
-byte array to store data send 
+Byte array to store data send. 
 
 \mbox{\Hypertarget{class_socket_server_1_1_socket_server_a3f7c25cca8eb9e7e98dc5172368e8f62}\label{class_socket_server_1_1_socket_server_a3f7c25cca8eb9e7e98dc5172368e8f62}} 
 \index{Socket\+Server\+::\+Socket\+Server@{Socket\+Server\+::\+Socket\+Server}!m\+Server\+Socket@{m\+Server\+Socket}}
@@ -211,5 +211,5 @@ byte array to store data send
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-G\+:/\+Assessment\+Three/\+Assesment\+Three\+Part\+B/\+Socket\+Server/\hyperlink{_socket_server_8cs}{Socket\+Server.\+cs}\item 
-G\+:/\+Assessment\+Three/\+Assesment\+Three\+Part\+B/\+Socket\+Server/\hyperlink{_socket_server_8_designer_8cs}{Socket\+Server.\+Designer.\+cs}\end{DoxyCompactItemize}
+G\+:/\+Assessment\+Three/\+Assessment\+Three\+Part\+B/\+Socket\+Server/\hyperlink{_socket_server_8cs}{Socket\+Server.\+cs}\item 
+G\+:/\+Assessment\+Three/\+Assessment\+Three\+Part\+B/\+Socket\+Server/\hyperlink{_socket_server_8_designer_8cs}{Socket\+Server.\+Designer.\+cs}\end{DoxyCompactItemize}

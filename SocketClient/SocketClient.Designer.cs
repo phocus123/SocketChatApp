@@ -58,7 +58,7 @@
             this.connectBtn.TabIndex = 1;
             this.connectBtn.Text = "Connect";
             this.connectBtn.UseVisualStyleBackColor = true;
-            this.connectBtn.Click += new System.EventHandler(this.connectBtn_Click);
+            this.connectBtn.Click += new System.EventHandler(this.ConnectBtn_Click);
             // 
             // sendBtn
             // 
@@ -70,7 +70,7 @@
             this.sendBtn.TabIndex = 2;
             this.sendBtn.Text = "Send";
             this.sendBtn.UseVisualStyleBackColor = true;
-            this.sendBtn.Click += new System.EventHandler(this.sendBtn_Click);
+            this.sendBtn.Click += new System.EventHandler(this.SendBtn_Click);
             // 
             // nameLbl
             // 
@@ -89,7 +89,7 @@
             this.nameTxt.Name = "nameTxt";
             this.nameTxt.Size = new System.Drawing.Size(257, 20);
             this.nameTxt.TabIndex = 4;
-            this.nameTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nameTxt_KeyDown);
+            this.nameTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NameTxt_KeyDown);
             // 
             // exitBtn
             // 
@@ -101,7 +101,7 @@
             this.exitBtn.TabIndex = 5;
             this.exitBtn.Text = "Exit";
             this.exitBtn.UseVisualStyleBackColor = true;
-            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
+            this.exitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // sendTxt
             // 
@@ -111,7 +111,7 @@
             this.sendTxt.Name = "sendTxt";
             this.sendTxt.Size = new System.Drawing.Size(379, 20);
             this.sendTxt.TabIndex = 6;
-            this.sendTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.sendTxt_KeyDown);
+            this.sendTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SendTxt_KeyDown);
             // 
             // SocketClient
             // 

@@ -7,13 +7,13 @@ using System.Windows.Forms;
 namespace SocketClient
 {
     /// <summary>
-    ///   static class for methods that can be used in both SocketClient and SocketServer classes
+    ///   Static class for methods that can be used in both SocketClient and SocketServer classes.
     /// </summary>
     public static class AppFunctions 
     {
 
         /**
-        * method for updating a textbox
+        * Method for updating a textbox.
         */
         public static void AppendTextBox(string text, TextBox txtBox)
         {
@@ -27,10 +27,10 @@ namespace SocketClient
         }
 
         /**
-        * method for sending data to the server, this one takes a string argument for sending the text
-        * @param text  the text to be sent
-        * @param socket    the client that sent it
-        * @param array  array to hold the data
+        * method for sending data to the server, this one takes a string argument for sending the text.
+        * @param Text  the text to be sent.
+        * @param socket    the client that sent it.
+        * @param array  Array to hold the data.
         */
         public static void SendText(string text, Socket socket, byte[] array)
         {

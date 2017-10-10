@@ -2,11 +2,11 @@ var searchData=
 [
   ['properties',['Properties',['../namespace_socket_client_1_1_properties.html',1,'SocketClient.Properties'],['../namespace_socket_server_1_1_properties.html',1,'SocketServer.Properties']]],
   ['sendbtn',['sendBtn',['../class_socket_client_1_1_socket_client.html#ae39ef5159c71a2e983b6c19d3548622c',1,'SocketClient::SocketClient']]],
-  ['sendbtn_5fclick',['sendBtn_Click',['../class_socket_client_1_1_socket_client.html#a93f0c7db922616b4f322433adc3a220e',1,'SocketClient::SocketClient']]],
+  ['sendbtn_5fclick',['SendBtn_Click',['../class_socket_client_1_1_socket_client.html#a9080f6ed9103d3388e3768da4276e237',1,'SocketClient::SocketClient']]],
   ['sendname',['SendName',['../class_socket_client_1_1_socket_client.html#aa5bdeccde8564ade04ece861218ba7f3',1,'SocketClient::SocketClient']]],
   ['sendtext',['SendText',['../class_socket_client_1_1_app_functions.html#a4050a5f5c5779c67f0579bc5ad890cf1',1,'SocketClient.AppFunctions.SendText()'],['../class_socket_client_1_1_socket_client.html#a0ffad9543c6accf3fa6a6d957b34feb9',1,'SocketClient.SocketClient.SendText()']]],
   ['sendtxt',['sendTxt',['../class_socket_client_1_1_socket_client.html#ae178c12147d21c828bb8a444267289ee',1,'SocketClient::SocketClient']]],
-  ['sendtxt_5fkeydown',['sendTxt_KeyDown',['../class_socket_client_1_1_socket_client.html#a38f11d5c2815b7b4d2aeb8cdf52f422b',1,'SocketClient::SocketClient']]],
+  ['sendtxt_5fkeydown',['SendTxt_KeyDown',['../class_socket_client_1_1_socket_client.html#a10780b5b665e5f1be462b728be91f253',1,'SocketClient::SocketClient']]],
   ['settings',['Settings',['../class_socket_client_1_1_properties_1_1_settings.html',1,'SocketClient.Properties.Settings'],['../class_socket_server_1_1_properties_1_1_settings.html',1,'SocketServer.Properties.Settings']]],
   ['settings_2edesigner_2ecs',['Settings.Designer.cs',['../_socket_client_2_properties_2_settings_8_designer_8cs.html',1,'(Global Namespace)'],['../_socket_server_2_properties_2_settings_8_designer_8cs.html',1,'(Global Namespace)']]],
   ['setupserver',['SetupServer',['../class_socket_server_1_1_socket_server.html#a7f3eb3d21566ae27786debe88c434cab',1,'SocketServer::SocketServer']]],
