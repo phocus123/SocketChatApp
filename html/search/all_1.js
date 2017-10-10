@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['client',['Client',['../class_socket_client_1_1_client.html',1,'SocketClient.Client'],['../class_socket_server_1_1_client.html',1,'SocketServer.Client'],['../class_socket_client_1_1_socket_client.html#a09a6b075aa1a2e8669cf52466e28b988',1,'SocketClient.SocketClient.client()'],['../class_socket_server_1_1_socket_server.html#a2c56e560fbab349d4ed56524f1f52f9c',1,'SocketServer.SocketServer.client()'],['../class_socket_client_1_1_client.html#a28a95475e56ee3c7b77514f3723c9b54',1,'SocketClient.Client.Client(string name)'],['../class_socket_client_1_1_client.html#adb3d952f4dea32b3670e05d2c2b9ed0a',1,'SocketClient.Client.Client(byte[] data)'],['../class_socket_server_1_1_client.html#a7838776ac07d22b2776496d8f20c50cc',1,'SocketServer.Client.Client(string name)'],['../class_socket_server_1_1_client.html#a9bc7823529aa727f7dd14bae897156ce',1,'SocketServer.Client.Client(byte[] data)']]],
+  ['client_2ecs',['Client.cs',['../_socket_client_2_client_8cs.html',1,'(Global Namespace)'],['../_socket_server_2_client_8cs.html',1,'(Global Namespace)']]],
+  ['components',['components',['../class_socket_client_1_1_socket_client.html#a93c4c9bc725018e23eb8722ff5c5035c',1,'SocketClient.SocketClient.components()'],['../class_socket_server_1_1_socket_server.html#a323fc298b887e4f0f1d764662203703b',1,'SocketServer.SocketServer.components()']]],
+  ['connectbtn',['connectBtn',['../class_socket_client_1_1_socket_client.html#a4189e5451a07ac6a6b7818910e005028',1,'SocketClient::SocketClient']]],
+  ['connectbtn_5fclick',['connectBtn_Click',['../class_socket_client_1_1_socket_client.html#a938dd095e77445dbc0ac020da5023571',1,'SocketClient::SocketClient']]],
+  ['connecttocallback',['ConnectToCallback',['../class_socket_client_1_1_socket_client.html#a9f94765a98f16857de0abb270fbe9679',1,'SocketClient::SocketClient']]],
+  ['culture',['Culture',['../class_socket_client_1_1_properties_1_1_resources.html#a0688ff6f826bff289a7b7f430d79f430',1,'SocketClient.Properties.Resources.Culture()'],['../class_socket_server_1_1_properties_1_1_resources.html#aab0a7ae935ff668ce2e7b53fae50f193',1,'SocketServer.Properties.Resources.Culture()']]]
+];
